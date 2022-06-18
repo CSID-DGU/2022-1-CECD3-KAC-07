@@ -1,6 +1,9 @@
 
 ## Introduction
 
+## languages
+Please find English version in Readme_ENGLISH.md.
+
 ## Quick Start
 
 <details>
