@@ -26,7 +26,7 @@ pip install -r requirement.txt
 <summary>Demo</summary>
 
 ```shell
-python demo.py webcam -n yolox-s -c pretrained/yolox_s.pth --conf 0.25 --nms 0.45 --tsize 640
+python demo.py webcam -n yolox-s -c pretrained/best_ckpt.pth --conf 0.25 --nms 0.45 --tsize 640
 ```
 
 

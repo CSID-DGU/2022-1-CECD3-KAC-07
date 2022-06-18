@@ -27,19 +27,11 @@ Step2. 安装相关库
 Step1. 从上面的benchmark table下载预训练模型，或者从官方repo下载.
 如果有gpu，可以用l,x结尾的大模型，如果没有，建议使用 s m tiny之类的小模型
 
-下面的例子以yolo_s为例。
+下面的例子以best_ckpt为例。
 
-对照片推理
-```shell
-python tools/demo.py image -n yolox-s -c pretrained/yolox_s.pth --path assets/1.jpg --conf 0.25 --nms 0.45 --tsize 640 --save_result --device [cpu/gpu]
-```
-对视频推理
-```shell
-python tools/demo.py image -f exps/default/yolox_s.py -c /path/to/your/yolox_s.pth --path assets/dog.jpg --conf 0.25 --nms 0.45 --tsize 640 --save_result --device [cpu/gpu]
-```
 从摄像头推理
 ```shell
-python demo.py webcam -n yolox-s -c pretrained/yolox_s.pth --conf 0.25 --nms 0.45 --tsize 640
+python demo.py webcam -n yolox-s -c pretrained/best_ckpt.pth --conf 0.25 --nms 0.45 --tsize 640
 ```
 
 
