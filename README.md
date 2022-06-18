@@ -2,7 +2,7 @@
 ## Introduction
 
 ## languages
-Please find English version in Readme_ENGLISH.md.
+Please find English version in README_ENGLISH.md.
 
 ## Quick Start
 
@@ -59,13 +59,6 @@ python -m yolox.tools.train -n yolox-s -d 8 -b 64 --fp16 -o [--cache]
 * --fp16: mixed precision training
 * --cache: caching imgs into RAM to accelarate training, which need large system RAM. 
 
-  
-When using -f, the above commands are equivalent to:
-```shell
-python -m yolox.tools.train -f exps/default/yolox_s.py -d 8 -b 64 --fp16 -o [--cache]
-                               exps/default/yolox_m.py
-                               exps/default/yolox_l.py
-                               exps/default/yolox_x.py
 ```
   
 That's all folks.
